@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+section {
+  padding: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.profile-container {
+  max-width: 500px; /* adjust the width to your liking */
+  margin: 40px auto; /* add some margin to center the profile */
+  padding: 20px; /* add some padding for better readability */
+  background-color: #f9f9f9; /* add a light gray background */
+  border: 1px solid #ddd; /* add a subtle border */
+  border-radius: 10px; /* add a slight curve to the corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
+}
+
+.profile-picture {
+  width: 100px; /* adjust the width of the profile picture */
+  height: 100px; /* adjust the height of the profile picture */
+  border-radius: 50%; /* make the profile picture circular */
+  float: right; /* move the profile picture to the top right corner */
+  margin: 10px; /* add some margin to the profile picture */
+}
+
+.profile-name {
+  font-size: 24px; /* adjust the font size of the name */
+  font-weight: bold; /* make the name bold */
+  margin-bottom: 10px; /* add some margin between the name and bio */
+}
+
+.profile-bio {
+  font-size: 16px; /* adjust the font size of the bio */
+  color: #666; /* adjust the color of the bio */
+}
+
+p {
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size-adjust: inherit;
+  font-stretch: expanded;
+  margin-bottom: 10px;
+  margin: 20px;
+  align-items: center;
+  text-align: ;
+}
+
+a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a:hover {
+  background-color: rgb(12, 228, 210);
+}
